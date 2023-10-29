@@ -30,4 +30,5 @@ jobs:
         with:
           BRANCH: gh-pages
           FOLDER: dist
+          publish_dir: my-hooks
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
