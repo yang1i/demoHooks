@@ -110,7 +110,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1698587972000,
+          "updatedTime": 1698595006000,
           "slugs": [
             {
               "depth": 1,
@@ -119,8 +119,8 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "⛰️ 能力支持",
-              "heading": "️-能力支持"
+              "value": "能力支持",
+              "heading": "能力支持"
             },
             {
               "depth": 3,
@@ -139,8 +139,8 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "🌟 设计目的",
-              "heading": "-设计目的"
+              "value": "设计目的",
+              "heading": "设计目的"
             },
             {
               "depth": 2,
