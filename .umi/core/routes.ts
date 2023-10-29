@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType, dynamic } from '/Users/xuying/myhooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { ApplyPluginsType, dynamic } from '/Users/xuying/my-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1698587735257,
+          "updatedTime": 1698587972000,
           "title": "首页",
           "hero": {
             "image": "/rainbow.png",
@@ -110,7 +110,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1698587735257,
+          "updatedTime": 1698587972000,
           "slugs": [
             {
               "depth": 1,
@@ -197,7 +197,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1698587735427,
+          "updatedTime": 1698587972000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"

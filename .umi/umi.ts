@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/xuying/myhooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/xuying/myhooks/node_modules/.pnpm/@umijs+renderer-react@3.5.41_react-dom@16.14.0_react-router@5.2.0_react@16.14.0/node_modules/@umijs/renderer-react/dist/index18.js';
+import { ApplyPluginsType } from '/Users/xuying/my-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/xuying/my-hooks/node_modules/.pnpm/@umijs+renderer-react@3.5.41_react-dom@16.14.0_react-router@5.2.0_react@16.14.0/node_modules/@umijs/renderer-react/dist/index18.js';
 import { getRoutes } from './core/routes';
 
 

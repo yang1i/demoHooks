@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createHashHistory, History } from '/Users/xuying/myhooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { createHashHistory, History } from '/Users/xuying/my-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"
