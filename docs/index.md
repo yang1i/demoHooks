@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /rainbow.png
+  image: /my-hooks/rainbow.png
   desc: YANGYI React 业务 Hooks
   actions:
     - text: 指南
