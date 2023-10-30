@@ -7,7 +7,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/myHooks/',
+  publicPath: '/myhooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -28,6 +28,8 @@ export default {
   hash: true,
   alias: {
     myHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    myhooks: process.cwd() + '/packages/hooks/src/index.ts',
+    ['my-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
