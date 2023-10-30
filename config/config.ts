@@ -7,6 +7,7 @@ export default {
     type: 'none',
     exclude: [],
   },
+  publicPath: '/my-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
