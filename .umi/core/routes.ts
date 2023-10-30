@@ -68,10 +68,10 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1698587972000,
+          "updatedTime": 1698644601000,
           "title": "首页",
           "hero": {
-            "image": "/rainbow.png",
+            "image": "/my-hooks/rainbow.png",
             "desc": "<div class=\"markdown\"><p>YANGYI React 业务 Hooks</p></div>",
             "actions": [
               {
