@@ -192,6 +192,154 @@ export function getRoutes() {
         "title": "myhooks - myhooks"
       },
       {
+        "path": "/hooks/use-boolean",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useBoolean__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useBoolean/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useBoolean/index.md",
+          "updatedTime": 1699475901111,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseBoolean"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useBoolean",
+              "heading": "useboolean"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useBoolean",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-boolean",
+            "title": "UseBoolean"
+          }
+        },
+        "title": "useBoolean - myhooks"
+      },
+      {
+        "path": "/hooks/use-debounce",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useDebounce__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useDebounce/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useDebounce/index.md",
+          "updatedTime": 1699481290241,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseDebounce"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useDebounce",
+              "heading": "usedebounce"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useDebounce",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-debounce",
+            "title": "UseDebounce"
+          }
+        },
+        "title": "useDebounce - myhooks"
+      },
+      {
+        "path": "/hooks/use-latest",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useLatest__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useLatest/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useLatest/index.md",
+          "updatedTime": 1699480018068,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseLatest"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useLatest",
+              "heading": "uselatest"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useLatest",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-latest",
+            "title": "UseLatest"
+          }
+        },
+        "title": "useLatest - myhooks"
+      },
+      {
+        "path": "/hooks/use-title",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useTitle__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useTitle/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useTitle/index.md",
+          "updatedTime": 1699478738092,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseTitle"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useTitle",
+              "heading": "usetitle"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useTitle",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-title",
+            "title": "UseTitle"
+          }
+        },
+        "title": "useTitle - myhooks"
+      },
+      {
         "path": "/hooks/use-toggle",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useToggle__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useToggle/index.md')}),
         "exact": true,
@@ -254,10 +402,47 @@ export function getRoutes() {
         "title": "useToggle - myhooks"
       },
       {
+        "path": "/hooks/use-unmount",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useUnmount__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useUnmount/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUnmount/index.md",
+          "updatedTime": 1699477834069,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUnmount"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUnmount",
+              "heading": "useunmount"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useUnmount",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-unmount",
+            "title": "UseUnmount"
+          }
+        },
+        "title": "useUnmount - myhooks"
+      },
+      {
         "path": "/hooks",
         "meta": {},
         "exact": true,
-        "redirect": "/hooks/use-toggle"
+        "redirect": "/hooks/use-unmount"
       }
     ],
     "title": "myhooks",
