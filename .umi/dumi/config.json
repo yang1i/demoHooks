@@ -38,6 +38,10 @@
             {
               "path": "/hooks/use-debounce",
               "title": "useDebounce"
+            },
+            {
+              "path": "/hooks/use-throttle",
+              "title": "useThrottle"
             }
           ]
         },
@@ -47,10 +51,24 @@
             {
               "path": "/hooks/use-title",
               "title": "useTitle"
-            },
+            }
+          ]
+        },
+        {
+          "title": "Effect",
+          "children": [
             {
-              "path": "/hooks/use-latest",
-              "title": "useLatest"
+              "path": "/hooks/use-update",
+              "title": "useUpdate"
+            }
+          ]
+        },
+        {
+          "title": "业务",
+          "children": [
+            {
+              "path": "/hooks/use-countdown",
+              "title": "useCountdown"
             }
           ]
         },

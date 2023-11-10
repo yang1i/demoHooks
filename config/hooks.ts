@@ -5,11 +5,19 @@ export const menus = [
     },
     {
         title: '状态',
-        children: ['useToggle', 'useBoolean', 'useDebounce']
+        children: ['useToggle', 'useBoolean', 'useDebounce', 'useThrottle']
     },
     {
         title: 'DOM',
-        children: ['useTitle', 'useLatest']
+        children: ['useTitle']
+    },
+    {
+        title: 'Effect',
+        children: ['useUpdate']
+    },
+    {
+        title: '业务',
+        children: ['useCountdown']
     },
     {
         title: '进阶',

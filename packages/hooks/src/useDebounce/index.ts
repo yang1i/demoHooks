@@ -13,4 +13,5 @@ function useDebounce<T>(value: T, waitTime: number) {
 
     return debounced
 }
+
 export default useDebounce

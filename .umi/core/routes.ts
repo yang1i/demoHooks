@@ -197,7 +197,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useBoolean/index.md",
-          "updatedTime": 1699475901111,
+          "updatedTime": 1699494350000,
           "nav": {
             "path": "/hooks",
             "title": "UseBoolean"
@@ -229,12 +229,49 @@ export function getRoutes() {
         "title": "useBoolean - myhooks"
       },
       {
+        "path": "/hooks/use-countdown",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useCountdown__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useCountdown/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useCountdown/index.md",
+          "updatedTime": 1699540241091,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseCountdown"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useCountdown",
+              "heading": "usecountdown"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useCountdown",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-countdown",
+            "title": "UseCountdown"
+          }
+        },
+        "title": "useCountdown - myhooks"
+      },
+      {
         "path": "/hooks/use-debounce",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useDebounce__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useDebounce/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounce/index.md",
-          "updatedTime": 1699481290241,
+          "updatedTime": 1699494350000,
           "nav": {
             "path": "/hooks",
             "title": "UseDebounce"
@@ -271,7 +308,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useLatest/index.md",
-          "updatedTime": 1699480018068,
+          "updatedTime": 1699494350000,
           "nav": {
             "path": "/hooks",
             "title": "UseLatest"
@@ -303,12 +340,49 @@ export function getRoutes() {
         "title": "useLatest - myhooks"
       },
       {
+        "path": "/hooks/use-throttle",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useThrottle__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useThrottle/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useThrottle/index.md",
+          "updatedTime": 1699534561512,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseThrottle"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useThrottle",
+              "heading": "usethrottle"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useThrottle",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-throttle",
+            "title": "UseThrottle"
+          }
+        },
+        "title": "useThrottle - myhooks"
+      },
+      {
         "path": "/hooks/use-title",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useTitle__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useTitle/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useTitle/index.md",
-          "updatedTime": 1699478738092,
+          "updatedTime": 1699494350000,
           "nav": {
             "path": "/hooks",
             "title": "UseTitle"
@@ -407,7 +481,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUnmount/index.md",
-          "updatedTime": 1699477834069,
+          "updatedTime": 1699494350000,
           "nav": {
             "path": "/hooks",
             "title": "UseUnmount"
@@ -437,6 +511,43 @@ export function getRoutes() {
           }
         },
         "title": "useUnmount - myhooks"
+      },
+      {
+        "path": "/hooks/use-update",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useUpdate__index.md' */'/Users/xuying/my-hooks/packages/hooks/src/useUpdate/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUpdate/index.md",
+          "updatedTime": 1699499475622,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUpdate"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUpdate",
+              "heading": "useupdate"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useUpdate",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-update",
+            "title": "UseUpdate"
+          }
+        },
+        "title": "useUpdate - myhooks"
       },
       {
         "path": "/hooks",
